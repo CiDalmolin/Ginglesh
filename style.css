@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap')
+
+abaixo aqui serve para resetar as configurações do html
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+	font-size: 500%;
+	background-image: radial-gradient(circle at 50% -20.71%, #ffdfda 0, #ffdfd8 6.25%, #ffe0d5 12.5%, #ffe1d3 18.75%, #fee2d1 25%, #fbe3cf 31.25%, #f8e4ce 37.5%, #f5e5cd 43.75%, #f2e6cd 50%, #eee7cd 56.25%, #ebe8ce 62.5%, #e7e9cf 68.75%, #e3ead0 75%, #dfebd2 81.25%, #dcecd4 87.5%, #d8edd7 93.75%, #d5edda 100%);
+}
+
+.cabecalho {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 21px;
+}
+
+.cabecalho-menu-item {
+	font-family: 'Sarala', sans-serif;
+	color: #CD5C5C;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.conteudo {
+	margin-bottom: 60px;
+	border-top: 0.4px solid #CD5C5C ;
+}
+
+.conteudo-principal {
+	text-align: center;
+	font-family: 'Sarala', sans-serif;
+	color: #CD5C5C;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.conteudo-principal-escrito-titulo {
+	padding-top: 100px;
+	align-content: center;
+}
+
+.conteudo-principal-escrito-titulo2 {
+	padding-top: 50px;
+	align-content: center;
+}
+
+.conteudo-principal-escrito-subtitulo {
+	padding-top: 50px;
+	align-content: center;
+}
+
+.rodape {
+	font-family: 'Sarala', sans-serif
+    margin-bottom: 60px;
+	border-top: 0.4px solid #CD5C5C ;
+
+
+}
+
+.rodape-pricipal {
+	display: flex;
+	justify-content: left;
+	font-family: 'Sarala', sans-serif ;
+	color: #CD5C5C;
+	font-weight: 400;
+	font-size: 24px;
+	
+}
+
+.rodape-botao {
+
+	font-family: 'Sarala', sans-serif ;
+	color: #CD5C5C;
+	padding: 0;
+	box-shadow: 4xp 5xp 4xp rgba(0, 0, 0, 0.25);
+}
